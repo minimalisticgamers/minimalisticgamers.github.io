@@ -58,3 +58,25 @@ The public game is still in preparation. There is no public App Store link or op
 The source page offers a selected source archive for the native app and vendored game. It excludes `.git`, internal account/review records, signing credentials, build artifacts, and private review/contact details. Original upstream author and license notices remain intact. Regenerate it after final native candidate changes with `ADarkRoom/Publication/package_public_source.py`, passing the intended version/build. The public `source-manifest.json` records included file hashes and the archive hash.
 
 The currently prepared source ZIP is for the immutable **A Quiet Ember 1.0 (3)** candidate. It contains 251 source files, including 25 preferred editable translations, and has SHA-256 `7367021c7f02ca8623df6956ea0f3668439a6b185b7666ad5e8f366710f976f9`. Packaging checked its local adapters/notices and all Vendor bytes against the signed build 3 archive.
+
+## Paperclip Game, Space Lich Omega 1, and Speed Warp
+
+Dedicated marketing pages, app support instructions, and app privacy policies:
+
+- https://minimalisticgamers.github.io/paperclip-game/
+- https://minimalisticgamers.github.io/paperclip-game/support/
+- https://minimalisticgamers.github.io/paperclip-game/privacy/
+- https://minimalisticgamers.github.io/space-lich-omega1/
+- https://minimalisticgamers.github.io/space-lich-omega1/support/
+- https://minimalisticgamers.github.io/space-lich-omega1/privacy/
+- https://minimalisticgamers.github.io/speed-warp/
+- https://minimalisticgamers.github.io/speed-warp/support/
+- https://minimalisticgamers.github.io/speed-warp/privacy/
+
+All three pages show public release as in preparation. Do not add an App Store download badge until the listing is publicly available. The host offers local gameplay and save backups, with no added closed-app catch-up production. Support stays on the public GitHub tracker; private Apple review contacts must not be published here.
+
+Paperclip Game is an independent host for Universal Paperclips by Frank Lantz / Everybody House Games. Space Lich Omega 1 is an independent host for the first Space Lich Omega by Nora Forcier / Zertuk. Their distribution authorization is unresolved; these pages do not distribute the game runtime or claim official status. Keep original creator attribution and release-status wording.
+
+Speed Warp is an independent host for Tom Medley's Warp, copyright 2013, MIT-licensed. Full original and dependency notices are available under `speed-warp/licenses/` and remain in the app.
+
+Gameplay galleries use actual native iPhone simulator captures. Captions describe the visible screen rather than relying on capture filenames. The corresponding selected asset manifest is retained in the private preparation output. No full runtime, signing materials, private account records, or review contact details are published on these pages. `games.css` supplies their shared responsive layout.
