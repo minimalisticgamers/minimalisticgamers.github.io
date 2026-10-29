@@ -1,0 +1,1271 @@
+{
+  "app": "A Quiet Ember",
+  "version": "1.0",
+  "build": "3",
+  "license": "MPL-2.0; retained dependency notices apply",
+  "archive": "a-quiet-ember-ios-source.zip",
+  "archive_bytes": 7212705,
+  "archive_sha256": "7367021c7f02ca8623df6956ea0f3668439a6b185b7666ad5e8f366710f976f9",
+  "preferred_translation_source": {
+    "upstream_commit": "1fada4620b6c66bd07bf15a3f1eb8223df8bc1d7",
+    "upstream_archive_sha256": "9138920520c5268a6575cb68fe1487927138b998ca75d6764f2f88acbe9b0012",
+    "upstream_archive_url": "https://codeload.github.com/doublespeakgames/adarkroom/tar.gz/1fada4620b6c66bd07bf15a3f1eb8223df8bc1d7"
+  },
+  "files": [
+    {
+      "path": "ADarkRoom.xcodeproj/project.pbxproj",
+      "bytes": 11366,
+      "sha256": "01189c994fdc37dce0cab26568d6474881d90532ac57579e09d6ee7848eda9cd"
+    },
+    {
+      "path": "ADarkRoom.xcodeproj/xcshareddata/xcschemes/ADarkRoom.xcscheme",
+      "bytes": 2610,
+      "sha256": "822728a360319e80e861ffd8b95e9c3aa1384b6fa2bb256955451b8fd470b384"
+    },
+    {
+      "path": "ADarkRoom/ADarkRoomApp.swift",
+      "bytes": 578,
+      "sha256": "ab31560603586e59a4ca785ca5c7f87396e715347a939a8aac615a59a63342b5"
+    },
+    {
+      "path": "ADarkRoom/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "bytes": 317,
+      "sha256": "6bd4a5c03932312170247ce78e40a5e6815b12c5306eba71fcdc91dd29925f8f"
+    },
+    {
+      "path": "ADarkRoom/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "bytes": 379118,
+      "sha256": "ce3aa7882309dd79025370bcadef37e658e7ff5b312bb0de6f93a87150e7e8b5"
+    },
+    {
+      "path": "ADarkRoom/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 203,
+      "sha256": "852920cb36e95beb53771138a4b8195a16fcce1cc31250632f246081cc638f9a"
+    },
+    {
+      "path": "ADarkRoom/Assets.xcassets/Contents.json",
+      "bytes": 60,
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "ADarkRoom/Assets.xcassets/LaunchBackground.colorset/Contents.json",
+      "bytes": 317,
+      "sha256": "2741526642a80b0a0cd5cbce56d2ea598757de2f60ae7bb2ceed3ff8051e62c5"
+    },
+    {
+      "path": "ADarkRoom/Host/mobile-layout.css",
+      "bytes": 10853,
+      "sha256": "39ac933c54d20da4cb08da7b1454339bd2150a58acfbaaa06654993a457c76b5"
+    },
+    {
+      "path": "ADarkRoom/Host/mobile-layout.js",
+      "bytes": 7927,
+      "sha256": "bdff24a6a5bf48b25f83788b8f729f3db9c61aa0c4eb3433241af9030b07f99c"
+    },
+    {
+      "path": "ADarkRoom/Info.plist",
+      "bytes": 1865,
+      "sha256": "005081d27a2eaa69025da21d7fc2fdff35fe0d6c01441cc369dd3a67dd9d8723"
+    },
+    {
+      "path": "ADarkRoom/PrivacyInfo.xcprivacy",
+      "bytes": 375,
+      "sha256": "406dbdc40977792d214b328631c9abc7236dfc9f81e2dffd123eb59999729335"
+    },
+    {
+      "path": "ADarkRoom/Resources/THIRD_PARTY_NOTICES.txt",
+      "bytes": 31595,
+      "sha256": "1702b569a73fabae0529167b85a961fe9073bdd5063a7181be2b4e2a8663a1fc"
+    },
+    {
+      "path": "ADarkRoom/UI/ContentView.swift",
+      "bytes": 6648,
+      "sha256": "2f07601bd62d9c07ee6c4de7c3affa63600ccf5019a06753ffca33dae9ab775f"
+    },
+    {
+      "path": "ADarkRoom/UI/LicenseNoticesView.swift",
+      "bytes": 913,
+      "sha256": "0dbbbe72da74f4a6feff79bb1458a9348c77149e26c5232818cb3c961b45f362"
+    },
+    {
+      "path": "ADarkRoom/UI/SettingsView.swift",
+      "bytes": 13400,
+      "sha256": "4af5d65bd842e617123c723bba8ad646ea8d1808c1986ef1aa6dc4ea74bc7cda"
+    },
+    {
+      "path": "ADarkRoom/UI/Theme.swift",
+      "bytes": 901,
+      "sha256": "3816abc62c115e181329ec519b1d2164215c300ab1d6bfed082d54d596c0ff66"
+    },
+    {
+      "path": "ADarkRoom/WebGame/OriginalGameController.swift",
+      "bytes": 17910,
+      "sha256": "cc0fa3eab674ab9159958341f2091aef5e477c0bf1c1b46e0bc221d43d9a6063"
+    },
+    {
+      "path": "ADarkRoom/WebGame/OriginalSaveRepository.swift",
+      "bytes": 6811,
+      "sha256": "762b73baa696ce5528ddbf11a1ba4b3d8cbe94c355137a614a4cc8ee3193d307"
+    },
+    {
+      "path": "ADarkRoom/WebGame/OriginalSource.swift",
+      "bytes": 7367,
+      "sha256": "017f41cf6e03bb9742646bfe7d0a7a026c33a0d4cbe20e4a66deaf7d7c71b4dd"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 16734,
+      "sha256": "d7fc444cae8da4b95b9d0356b145dfc530d45b16965da953fa02dbb9ce004572"
+    },
+    {
+      "path": "PreferredTranslationSource/LICENSE.md",
+      "bytes": 16734,
+      "sha256": "d7fc444cae8da4b95b9d0356b145dfc530d45b16965da953fa02dbb9ce004572"
+    },
+    {
+      "path": "PreferredTranslationSource/README.md",
+      "bytes": 2663,
+      "sha256": "1dc4d624812f499a9ff84fe211915a7fd48f6744d6b44dc8bf224246adb038db"
+    },
+    {
+      "path": "PreferredTranslationSource/contributing.md",
+      "bytes": 1220,
+      "sha256": "b6bf624468c8b735b9ccdd2606af83ca1e8f2f99f2667b9d6e018c5b3a9f34e1"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/adarkroom.pot",
+      "bytes": 71206,
+      "sha256": "0ffc1a018dd32ab1f67b60c70b90670672ca354bca0356a538520ca1fbf73c04"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/babel.cfg",
+      "bytes": 41,
+      "sha256": "292b1bb3bc590b8b928cac2266be7359c40db0abf1e1fc04c3e73fd07d67a2eb"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/cs/strings.po",
+      "bytes": 95671,
+      "sha256": "28841e3c2d0a7b007f40f768bee402246f04e241a3074fcedcef401c1f801c16"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/de/strings.po",
+      "bytes": 94458,
+      "sha256": "fc0229a63164759cbacbd94ee3d061b94838767274b5592e0fddbcd1c657bcc6"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/el/strings.po",
+      "bytes": 116371,
+      "sha256": "1716230aa46f222312ed25fb8ea7f95990f55e070332ec7b84ea408aa0b5b9d6"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/eo/strings.po",
+      "bytes": 91497,
+      "sha256": "bbc328c042012fcfc61efee26b9e4d2eb887e97795e36706795c8f1bcdbfc411"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/es/strings.po",
+      "bytes": 94922,
+      "sha256": "76958a44eee27955869c42603a0e93665c6e965f04c8adcfd00f9f75c9821838"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/fr/strings.po",
+      "bytes": 102812,
+      "sha256": "000536246fc2a0c9a83bda20b18386c5de437840e8da7b7fef0a08ac2292c993"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/gl/strings.po",
+      "bytes": 94106,
+      "sha256": "8ba6eb27b0e9f4f54e2a7607390caf685dc8cf89eb81f31f7440f2c836e39dda"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/id/strings.po",
+      "bytes": 95343,
+      "sha256": "c77850043ec4508aa2de3783982d085bd1acc4bf794dbaf91be472d84d0a3eb8"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/it/strings.po",
+      "bytes": 96106,
+      "sha256": "94be473122b29699e70cc2fc0e62173eb1f4b44e45b52bfa58b122507a260c11"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/ja/strings.po",
+      "bytes": 95904,
+      "sha256": "ab97ec055695112c557b3e8fd9b8a59fd2f8b583b6b4a664e47790c0bd9d5d20"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/ko/strings.po",
+      "bytes": 95754,
+      "sha256": "f155ead11e200978162083d9eee2dfb30f2e92f08e881ca294f6bd698bc6dfd3"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/lt_LT/strings.po",
+      "bytes": 91325,
+      "sha256": "967395cfd6f8260d8931dcbf803aec7a0752ae2493d3d99e6a2e3c4cd50f67fe"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/lv/strings.po",
+      "bytes": 92826,
+      "sha256": "c0aa4c0838da8d7906f089c7ed58bc6c710a8b814f6681da37d45181cfd1a12d"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/nb/strings.po",
+      "bytes": 90859,
+      "sha256": "91d66db50a78e9846b9f8d36bc51120327da0f86f3a1f227c5b22c62ae66a79b"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/pl/strings.po",
+      "bytes": 93742,
+      "sha256": "b0a2712b0603dd12b597ba1ef1fbd59b427a33c170480b950642ae62993bc28e"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/pt/strings.po",
+      "bytes": 93218,
+      "sha256": "21b78981ef501f166584ba77d2f381003e4ac2a6ee7f3d518a7fde0f8720c6fa"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/pt_br/strings.po",
+      "bytes": 93429,
+      "sha256": "75f213dfe7e5051fc279233b35902b9bc80934e6c4fae0643e475bba87de0811"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/ru/strings.po",
+      "bytes": 115229,
+      "sha256": "6c48ae0504e71eb03f8e856df8d3a5a31538c5ef919a39e04e464708173c73b2"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/sv/strings.po",
+      "bytes": 85148,
+      "sha256": "517f25357df2aae258224430876e13d8b99396a0b73eea3698531ad6686326b7"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/th/strings.po",
+      "bytes": 128180,
+      "sha256": "41a75175ba930b90b7739e08ecd1ee3b5ab5aa4f7fc27953a8893b44dc4978e7"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/tr/strings.po",
+      "bytes": 93652,
+      "sha256": "7ae7b55cb98b4a71a6c00360292f7613bad58ca04d873592016b612c0246ef13"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/uk/strings.po",
+      "bytes": 115913,
+      "sha256": "80b19ad4b10c19fcd8e6376daf73bb855905249217f7482f420a4babe03c7bd3"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/vi/strings.po",
+      "bytes": 97747,
+      "sha256": "9aeb5207efcdac5dc7ef9b145589adafc30de035619148ff9c25d1ad55a6252c"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/zh_cn/strings.po",
+      "bytes": 89758,
+      "sha256": "ce19a1cf5f389d8ce4a3e8dec59c2c2689b5b5d350ce95e2fe90ed800a024485"
+    },
+    {
+      "path": "PreferredTranslationSource/lang/zh_tw/strings.po",
+      "bytes": 88957,
+      "sha256": "c86f2daedd57f1e1e5b63578b08be67d8a4409382ede53bb63c21dab7111abfa"
+    },
+    {
+      "path": "PreferredTranslationSource/preferred-source-manifest.json",
+      "bytes": 7589,
+      "sha256": "9855390fc779ab4fb1539679f2be29076c7a609787bf1653baaae95afbb824b8"
+    },
+    {
+      "path": "PreferredTranslationSource/tools/po2js.py",
+      "bytes": 1480,
+      "sha256": "0e432eda11cab84e3f1de2022802afb5e7a30addd2af7623e0c71828b1b546f0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1982,
+      "sha256": "6d62702a9b2f5a43e81282d06676e09926f390ad78fbfd28261a67020318fa46"
+    },
+    {
+      "path": "Scripts/generate_project.py",
+      "bytes": 13960,
+      "sha256": "26d72a9d83124de6e5deea6daf96878e4231b56f6fee893f7fe7b5512e59c420"
+    },
+    {
+      "path": "Scripts/vendor_original.py",
+      "bytes": 6708,
+      "sha256": "d9acc7715fa42edae20651888f8e7bf3f159502ca8f7d18b0acdcd626a7e19cd"
+    },
+    {
+      "path": "Vendor/ADarkRoom/LICENSE.md",
+      "bytes": 16734,
+      "sha256": "d7fc444cae8da4b95b9d0356b145dfc530d45b16965da953fa02dbb9ce004572"
+    },
+    {
+      "path": "Vendor/ADarkRoom/README.md",
+      "bytes": 2659,
+      "sha256": "f85e8edf2b3607b8dac270ad7ee9440d3cbf39c5fcdd35bfb44a053a109bc746"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-1.flac",
+      "bytes": 12220,
+      "sha256": "00ac27ef7382f93bdcf0192a9479f622c8b5bc0a92fb7df0b20d133515c52383"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-2.flac",
+      "bytes": 16516,
+      "sha256": "5659647274862a3e171e949dc95378070b1627d97283324f759530894517f035"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-3.flac",
+      "bytes": 14529,
+      "sha256": "ab6c0d85b952e83a7f0bd86841e146840e29e11e98d7cdf99c186bc241112157"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-4.flac",
+      "bytes": 17693,
+      "sha256": "69268f3326135f0e5d02a1e85118c8b8c73a5751ab6a14111819cdc15b684be0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-5.flac",
+      "bytes": 21555,
+      "sha256": "7a194408fca97d0b5e23fcc547d52564337092f3ae304aa664e373df258c9321"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-6.flac",
+      "bytes": 28101,
+      "sha256": "3b8f0f0fe0fb73496172d303976b05df26c9ebe2ae60974763ed28093dc3ece4"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-7.flac",
+      "bytes": 27784,
+      "sha256": "3e8ca50c20c92954fb56de6e0e1d3815b2b469f7313c563422a0df5417a21e82"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/asteroid-hit-8.flac",
+      "bytes": 24940,
+      "sha256": "b8c1d318f464732ea1d5f8f056244ba3b240de05718bb2b3e592919261777f76"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/build.flac",
+      "bytes": 13095,
+      "sha256": "8a052a6e2f2a9c8cf239bf53fb4566388de3d819e822f4e2b95a701c9499c231"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/buy.flac",
+      "bytes": 2471,
+      "sha256": "33fa584c7f6d3063b658c93d4254621c32d41fe6744c4fc560170e52ce2fe922"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/check-traps.flac",
+      "bytes": 8615,
+      "sha256": "cdd65163f9a11659a12cca34453f9f877b00f6ccea5da9d0145b30f96f5d2ae6"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/craft.flac",
+      "bytes": 9295,
+      "sha256": "b3f469eb9d871691d6cf837342b95516ed22631cbd1e3c313dd9eaf07e1f51e2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/crash.flac",
+      "bytes": 38102,
+      "sha256": "077c20d2375e9b43e80f8ec1aa0a9a7be74201f16a29e76bd6ddbd7971e30d86"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/death.flac",
+      "bytes": 9382,
+      "sha256": "14927ec1a836e7b5b4d847cac342507b435fb8ccd0973b5031d4beb18b400274"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/dusty-path.flac",
+      "bytes": 101488,
+      "sha256": "ecc489d51b00eb8c42183e2fa77fadc00c430731e011c749b63b9ac4e2dd58e8"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/eat-meat.flac",
+      "bytes": 5684,
+      "sha256": "029a482210aa5966750893c719fc348ceecc3f310d22c8cbeb6a3ff9ec6e6d13"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/embark.flac",
+      "bytes": 5975,
+      "sha256": "61fe584bcd27afcd4e8fedd2995d4b896b7386c1738204073c4c99769dfede5b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/encounter-tier-1.flac",
+      "bytes": 78947,
+      "sha256": "d394a86adc8db12c8a4c5a64a79a0e974f2898678bf1f1c2f57ba4de28224ffd"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/encounter-tier-2.flac",
+      "bytes": 79994,
+      "sha256": "8dbb976a1d777154630fa840857427aa60e528037bc09e87472ab0307e9f598e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/encounter-tier-3.flac",
+      "bytes": 75465,
+      "sha256": "fc1c53ffe6027971deb1dacf390888ba8993da4c22266be3ee12201680955c81"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/ending.flac",
+      "bytes": 123233,
+      "sha256": "b2a36c7f4a24c5b075d7039f85963a54c7d7218ea4b105d99c283ae77ce65d34"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-beast-attack.flac",
+      "bytes": 56847,
+      "sha256": "e04a0e247d9fe50d3feba791ad608c81fdf4521744829fd8197b55c33277f4d7"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-beggar.flac",
+      "bytes": 64440,
+      "sha256": "1155ec61bb49efa1b392c2fe5b1f67e19bd6a7859f0a1dd860718ce85076f553"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-hut-fire.flac",
+      "bytes": 89478,
+      "sha256": "c6aae0af0a3e7c434ac7440fd3f3055e038efbf32192eaa39443c69c49935286"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-mysterious-wanderer.flac",
+      "bytes": 79726,
+      "sha256": "097ae60cefad90d22921f9417f985eb4267b4777b08ac687e6cbeafce7e387c0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-noises-inside.flac",
+      "bytes": 63455,
+      "sha256": "4c730c661c0654a2889c847c04655ca5306c96ef23a937d6e945e028b5f46e03"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-noises-outside.flac",
+      "bytes": 54170,
+      "sha256": "339fe475bc158196df129a100f3692780593effd10e8824e59f3bc7ce66c9bcd"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-nomad.flac",
+      "bytes": 60772,
+      "sha256": "ba67a8009b413c373d20b702928fb7d0bb147f77bd0876f946427dc22b91edeb"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-plague.flac",
+      "bytes": 54244,
+      "sha256": "52847c1191ef02532f2e64e1bd106c098dcc6d4d83c0b5f34fc4aff23b104a56"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-ruined-trap.flac",
+      "bytes": 84707,
+      "sha256": "22dbf4200888802b97255121c903dcbc1a77053bb8c14f405e5c553db9a00ca0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-scout.flac",
+      "bytes": 52864,
+      "sha256": "0cd612e53ad719c1d75bb49e6aa5fa009b3a0f5e70283db1491b518d33a6eea9"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-shady-builder.flac",
+      "bytes": 67035,
+      "sha256": "512a48f8867056396e5ee6082f560f8efb807783caefc73cde20c433c7d33eeb"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-sick-man.flac",
+      "bytes": 49411,
+      "sha256": "143016da283b4b0fbca8f011cf561689f49eff185cf3280f675c2d2483802e0c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-sickness.flac",
+      "bytes": 53011,
+      "sha256": "6651f47857271393fd13b16e96ba2470e8c1b6e21dd371f071d5e8f61444e374"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-soldier-attack.flac",
+      "bytes": 87871,
+      "sha256": "87f848e070cfef81acb73245d5d75f46df6a9cb184e3bd96947d5799ac1732b2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-thief.flac",
+      "bytes": 69339,
+      "sha256": "429c7e52c4889244534258694451774bb9e18d6b791d979007ddf759bdad76e2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/event-wandering-master.flac",
+      "bytes": 71396,
+      "sha256": "e4226823519b521384f04512fab7e41e9c07bde38316cab110c1ca832194c85d"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/fire-burning.flac",
+      "bytes": 98455,
+      "sha256": "7636842445e17eb4247a7cf5edd234e573183fa88b1ed8b416b31583e9a84109"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/fire-dead.flac",
+      "bytes": 72346,
+      "sha256": "477f0bf09d70f659a26200eae1575200b87ee5959df61a1b81fe7b90c5bdbdf6"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/fire-flickering.flac",
+      "bytes": 77954,
+      "sha256": "81e190801df4069f7a264db4dade6abf243784ab4c6d4702ec0aa1845927fe03"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/fire-roaring.flac",
+      "bytes": 75249,
+      "sha256": "c2d035a4416e5a18f620bcece05e348c5aeae61348a94e0be3024759f10b6e2b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/fire-smoldering.flac",
+      "bytes": 70579,
+      "sha256": "8e2566170c343f22a2228540f4b781dbf2bfe4dfd9cc2adab247fa8bcac65b4d"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-1.flac",
+      "bytes": 1314,
+      "sha256": "2a184897621c45c949b60ec7110d7fd49d014254f83efeb90ef63ded5e85ee65"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-2.flac",
+      "bytes": 1415,
+      "sha256": "d4d017c4d639c23451c2b17e4f16c8fa772b73952aa32c46eb9c845a162aa390"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-3.flac",
+      "bytes": 1457,
+      "sha256": "b16e83b06bea11c6e9bcac4b835464db07fea5d0e29490c6881f9024b6705bcf"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-4.flac",
+      "bytes": 1659,
+      "sha256": "209ff980399652ac2cecf0fc0b73c96930d24507ac929bb143642775290c5f72"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-5.flac",
+      "bytes": 1436,
+      "sha256": "bf5bdedba8f5ff51baed8147097b0cdbb142ddb8cba7748af7c874b1d79f77bf"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/footsteps-6.flac",
+      "bytes": 1593,
+      "sha256": "f5960191d19ad008702e892cee51a9e46303df818780bfc72463574c7bf5753e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/gather-wood.flac",
+      "bytes": 6705,
+      "sha256": "2ec03d28a4eceb7248f5d5f82b63320a9122345c185f440207b7a417dbbb8cc9"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-battlefield.flac",
+      "bytes": 74839,
+      "sha256": "fc30a91ec66bbd20feda17a861c13f7d9ad100876b596233b0ec64a131833371"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-borehole.flac",
+      "bytes": 110871,
+      "sha256": "4c31474b0e0c0e4f21c67c3312b8c482be09ea5b5d117a897a976c6eb9916591"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-cave.flac",
+      "bytes": 96332,
+      "sha256": "54963a131c1fab0bae6866b1dfc7fd59e4b1bfb98bb58ae4fd6184876d5a1919"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-city.flac",
+      "bytes": 95899,
+      "sha256": "fb7796783ebd2a07a262c1b3f87bdb125bb58d5f513c4dcda925284ef9b635de"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-coalmine.flac",
+      "bytes": 76795,
+      "sha256": "dd5ae8f0b135aa2cb7e16ba1bbacb9d632adf96dbd0067ba8bef7405a16e17a3"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-crashed-ship.flac",
+      "bytes": 118544,
+      "sha256": "f614f5580e0d4ecba342fcc30a05453f4d67da72607bf3962ca3399d066136b7"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-destroyed-village.flac",
+      "bytes": 101298,
+      "sha256": "8da643c7c1a53533f6e1375370b1beaab9583d9f036a9d538f5a762cc95bc530"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-friendly-outpost.flac",
+      "bytes": 108958,
+      "sha256": "5bd2162f03d2c16bc5441cdcea955bc766736144161fad8b61e7bd8abb895578"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-house.flac",
+      "bytes": 91479,
+      "sha256": "a3d462fd4a8f3fa0962a2e99b7c5aa2134ff121fc86673685022a761c2385cf9"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-ironmine.flac",
+      "bytes": 119474,
+      "sha256": "cea5f14d117588905a753d11efb84c040dd187bb499c7fb14c9eaac230e3ef7f"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-sulphurmine.flac",
+      "bytes": 98373,
+      "sha256": "684d2274b9f576d7cf91cff9bcc94ce975430e1aa99939ee75289d4df885cb52"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-swamp.flac",
+      "bytes": 105904,
+      "sha256": "dadc0e42caf6863673fd607d86c1496e6286a5b95e503e00b19a80e0a663c6b2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/landmark-town.flac",
+      "bytes": 160856,
+      "sha256": "268a5b064fa7111abc0f5bec9161461bb87f2b9ac7f6934a6e3e51172c197fd2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/large-village.flac",
+      "bytes": 187026,
+      "sha256": "0f9abf0548d230d7d8b3973c6b19e6ccdc1e0f8ada14d28ee127859619fdf9de"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/lift-off.flac",
+      "bytes": 19865,
+      "sha256": "3f2028375650a559e9c00d861c4a2974a79b4814b6412c8f425470f8b99f6235"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/light-fire.flac",
+      "bytes": 7823,
+      "sha256": "f8472175c25cf020bf6e69072c2fd8958b277080ce94982224ca6a4f3188a314"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/lonely-hut.flac",
+      "bytes": 140188,
+      "sha256": "a17ee15d65c6bfa0094d183779eef14b008b6ac942bff2135bbdd55c7bf53755"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/modest-village.flac",
+      "bytes": 155762,
+      "sha256": "48b87ec5742dcc3ec921ce48ad2890dde6882f18afda9475b220593ec1da51b3"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/raucous-village.flac",
+      "bytes": 202129,
+      "sha256": "a8e3d004a46505ff9157df37e8cddcb25656e7e05e75fc7aa27869ce88042a1e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/reinforce-hull.flac",
+      "bytes": 13631,
+      "sha256": "fdcd112c2c769dcd77da12a21ceed7d234311004522d9a0269873c7a62c0c251"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/ship.flac",
+      "bytes": 120735,
+      "sha256": "019dbc863f8b6e0a509a09404f830ddb60bcb474b0379106143abf58f9b5e971"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/silent-forest.flac",
+      "bytes": 136367,
+      "sha256": "78cee0963b1bd73780630496b4793f202cf02f4b685b059ed8bd94eda956716a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/space.flac",
+      "bytes": 43483,
+      "sha256": "e2c82d466b14abc2338cb2f01f836dffe20dfcb609ee3c3f66111eb752840af4"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/stoke-fire.flac",
+      "bytes": 6721,
+      "sha256": "c38bc7c9e7dceca7274a9d8f6f0a572abea5527b9a4c65f72a40039b0f39c8f6"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/tiny-village.flac",
+      "bytes": 160616,
+      "sha256": "0e893ad5476cb9423219104b734713d3dd2def2c89005ede74871baf41cc8475"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/upgrade-engine.flac",
+      "bytes": 20511,
+      "sha256": "05e5d14ac870b930c8297099e93c96d13a846c836c9a1a5c6ef269aa58bba18e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/use-meds.flac",
+      "bytes": 4164,
+      "sha256": "72bc77ea8a2800755a5316e764fb4a3069b887faefdea76afeed84ce1b2d451c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-melee-1.flac",
+      "bytes": 6160,
+      "sha256": "f886b41c40b4276f45ff93e3105edb772365c254d9c7eb874e9b2698205cffac"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-melee-2.flac",
+      "bytes": 6476,
+      "sha256": "977436ed54ce36af458a697a767ce41b4662f1131c501c48002c37e3866fb173"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-melee-3.flac",
+      "bytes": 6946,
+      "sha256": "547e7eb47eccff84299fd7603b2e99622aa851bdabda1be26562d68705df86bb"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-ranged-1.flac",
+      "bytes": 10649,
+      "sha256": "52a7920c85933b6ab61ab88cf72e691f41a76927ba5fc4a0ab3ff5d09b434922"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-ranged-2.flac",
+      "bytes": 11593,
+      "sha256": "1d7b7ce811f6eb7e713ce7d3ea7b25290ac0ff558fd84aa27477aa08d7fdb75d"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-ranged-3.flac",
+      "bytes": 11810,
+      "sha256": "f63e8aa73e95cfdcf895c598fc9993a2622bb793be9da7e4e2863e43bfc3d9ea"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-unarmed-1.flac",
+      "bytes": 4546,
+      "sha256": "80a268d20411aefdb6be26815b817953eddfb78f8c0c92f621d66fa900e79193"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-unarmed-2.flac",
+      "bytes": 4563,
+      "sha256": "574a8329453dd75d69f4e3e33e16ce8c3e7ecf470a6e68d1b1029eee45d2bc8b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/weapon-unarmed-3.flac",
+      "bytes": 4502,
+      "sha256": "9643546b8e88c5445b1980e3a40b9e9ce412c3b6e6fc5ae829525aa72500cee0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/audio/world.flac",
+      "bytes": 146151,
+      "sha256": "51db6e96ed2f54fc2cdd5e7cc8acd76cee9deede8945d19f667951ab27ed53c2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/browserWarning.html",
+      "bytes": 1497,
+      "sha256": "dd6c1dcfd6f2c3874727a90a6eeec5ee39e8523d04908bfdceb426844c3ead0b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/dark.css",
+      "bytes": 2895,
+      "sha256": "55ac0881eabefd93c52de20b30c24bdcd4cd7a920ce280f81ece08844990fa65"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/fabricator.css",
+      "bytes": 517,
+      "sha256": "0bd6da695b481e3cb50fd4c30b84987500b1b349277978fd28e6d9320dd254fd"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/main.css",
+      "bytes": 9899,
+      "sha256": "3edf4abb6b552ecbbce55e682ae89d68ccc7e809448c27a8a6e5e8cd11b59ec1"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/outside.css",
+      "bytes": 855,
+      "sha256": "d8b24f9f615566aa55fe769e06a6e71fe2d1ad8a473c346d7047bdb36a024ca5"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/path.css",
+      "bytes": 1025,
+      "sha256": "4ec1137963c8d782baeba60077886d7a42663725a4b48cb7b5c2650298368485"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/room.css",
+      "bytes": 848,
+      "sha256": "62afc8795417c0d2f0eaaab5025b60048689dcbfd6b13c8fec3fbee1379239b5"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/ship.css",
+      "bytes": 85,
+      "sha256": "8f5f3209d2be1ddec55c2686294f736f86230c15614c2b1e20cfef782fdd965b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/space.css",
+      "bytes": 2809,
+      "sha256": "215871b3bcce91dfe0e6cbab4cfb6b34510300fbb8b0dea565140fe62f0821fd"
+    },
+    {
+      "path": "Vendor/ADarkRoom/css/world.css",
+      "bytes": 1265,
+      "sha256": "c6da8f48e5b5ed797c6e5503862db3d4396014e7129fe64f140f1296c6e62b70"
+    },
+    {
+      "path": "Vendor/ADarkRoom/favicon.ico",
+      "bytes": 318,
+      "sha256": "e86c144b7c64691cce21c58f84e563a368e7eb4b6b2635c45b0ed04657bea9f2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/Logo1.jpg",
+      "bytes": 36459,
+      "sha256": "6063447e9b56d743b56f539afdb5bf679152f4429a6f2328c74fecca243ee048"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/adr.png",
+      "bytes": 5648,
+      "sha256": "40608090deee30737626d6d28f5ca41a091029ef4690d20f122269b345d01557"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/chrome.png",
+      "bytes": 122169,
+      "sha256": "c0e62b9671b6186283074a91e262f26ca70714208f2390e00dc438e733931c8e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/firefox.png",
+      "bytes": 195147,
+      "sha256": "f44384e76d674ce1734e4a467fdd7627d207e16354a01a8ba9dc9b4f09cccd17"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/ie.png",
+      "bytes": 21010,
+      "sha256": "c090566aa782e9277eb1edc3e283d20de410879d4ace39722c5ca5ce9c7d99b0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/opera.png",
+      "bytes": 44441,
+      "sha256": "0e3bee0e7111428c60175b103c0d463b1719e1a01e004458604f4349ecb7eeb0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/img/safari.png",
+      "bytes": 89216,
+      "sha256": "f334249ce8af68951edfe066af9dc8e8b0e77fe4acaa876d26f1519a6da94aad"
+    },
+    {
+      "path": "Vendor/ADarkRoom/index.html",
+      "bytes": 5201,
+      "sha256": "6795b4aa3df7cec61c1bfbeffb700b2622f89e6df84ed3c225416a28d91c85a0"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/cs/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/cs/strings.js",
+      "bytes": 63017,
+      "sha256": "478e3e4924e83d7eb2ebd55a7e95b908f865f5794791ba9d85e38d75160ef3ed"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/de/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/de/strings.js",
+      "bytes": 53870,
+      "sha256": "187fe56025b337dbd2024a06961b85738d04fef2b9f1142398843374243d61d3"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/el/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/el/strings.js",
+      "bytes": 153896,
+      "sha256": "15b374dc07ba09ccb69f8342901d1088f7c1c0e8cb83f4f92d6c118bdb36dda8"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/eo/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/eo/strings.js",
+      "bytes": 52836,
+      "sha256": "49cf9a360313d9e167f9296570ad1882110edbdcabd6903f9bf6e9aed2ba700a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/es/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/es/strings.js",
+      "bytes": 55409,
+      "sha256": "1807e80236f4949fbe1844c13d95aa5d5fbea2b39dc36e90ea0a626d0a85cc76"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/fr/main.css",
+      "bytes": 382,
+      "sha256": "6a19dff92e7f4c08f18b31afdb823478592b4cbdceac1039b303f1d03dd46a4e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/fr/strings.js",
+      "bytes": 57814,
+      "sha256": "39c5ae683641cdbe9e4105c9c88c0aea81c3c65e11a2a78e4235d19db5dab251"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/gl/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/gl/strings.js",
+      "bytes": 54164,
+      "sha256": "fcbe56c25f485123acded65fcc5afe27921ab3847dbe8a037e323923f9952ce5"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/id/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/id/strings.js",
+      "bytes": 50328,
+      "sha256": "155819461534fc7d7c5b9ff1f6011b5bad8989239dacfe7116309b5b331a2be6"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/it/main.css",
+      "bytes": 129,
+      "sha256": "c6b96c1b01d4c7f8728739221d78213ae812c9aad1d5d37db09806f4d047309a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/it/strings.js",
+      "bytes": 55649,
+      "sha256": "b3279c02243ace53e2e4c36ed154740a2d6a203eda11a4294d13b9e981aa0d0b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ja/main.css",
+      "bytes": 130,
+      "sha256": "d131616eb69b8213be24dbee625367a5130ad52766d3f6470c26d46e91a3e9ee"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ja/strings.js",
+      "bytes": 80654,
+      "sha256": "f4ab9c8d85e1b102a4fc5e4f72d8a4831a4004f7149140d3122b422a801daf8d"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ko/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ko/strings.js",
+      "bytes": 78908,
+      "sha256": "6f40e30eda2aea9279a6cd59b235b9fdf609932d129fad402578f5211692d1f1"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/langs.js",
+      "bytes": 558,
+      "sha256": "474f15dfed8fec2372b94a25ca2622f36110657e29bde618f23e89a841dd3ac3"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/lt_LT/main.css",
+      "bytes": 130,
+      "sha256": "3a7fe5f31b668080a6db22aeb3a9ffc7d09bc435baca1206a970eb5f96cd16a2"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/lt_LT/strings.js",
+      "bytes": 56413,
+      "sha256": "8b1265aebf161f40aaa6e4a754e2255d1e68a587c5e6b78bf9f251807d619d52"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/lv/strings.js",
+      "bytes": 60491,
+      "sha256": "b5ba80d4b0ecd43a5749aafb3cb31e00324dec531f87199ad881497db5026495"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/nb/main.css",
+      "bytes": 130,
+      "sha256": "d131616eb69b8213be24dbee625367a5130ad52766d3f6470c26d46e91a3e9ee"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/nb/strings.js",
+      "bytes": 50626,
+      "sha256": "1b05f2d78346b8e245cdb76e45d224bf9bccbf2be40149712ed119fbb78cf1e4"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pl/main.css",
+      "bytes": 129,
+      "sha256": "c6b96c1b01d4c7f8728739221d78213ae812c9aad1d5d37db09806f4d047309a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pl/strings.js",
+      "bytes": 58909,
+      "sha256": "53423628d791304a5e73011fa25e460aeb2d4f84aa84101f5898a6d7e09f111c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pt/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pt/strings.js",
+      "bytes": 52567,
+      "sha256": "1413b9e8349577ed20adb12ca4618e3742fdb0d9b7289fbdb798e51872bc4bd1"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pt_br/main.css",
+      "bytes": 129,
+      "sha256": "c6b96c1b01d4c7f8728739221d78213ae812c9aad1d5d37db09806f4d047309a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/pt_br/strings.js",
+      "bytes": 54609,
+      "sha256": "0bf2b6ae9d7f42826723f93e24072f74849bcd8346502fd357966c254aea4261"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ru/main.css",
+      "bytes": 280,
+      "sha256": "16b117f52bdee02a1ca5a9db4acb523aa16d9b3845bff0edf224f52e943b0ed9"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/ru/strings.js",
+      "bytes": 84290,
+      "sha256": "492b16c56dc548e049b0cde2c30cf1fd7b690bf1568326eee19c7e36eb46c4c8"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/sv/main.css",
+      "bytes": 130,
+      "sha256": "d131616eb69b8213be24dbee625367a5130ad52766d3f6470c26d46e91a3e9ee"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/sv/strings.js",
+      "bytes": 37795,
+      "sha256": "7e088367b03889a62fa3f0deba665a88eba2b51c59ee9b99173da7eabd9678a9"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/th/main.css",
+      "bytes": 129,
+      "sha256": "9f25ff88230e47ca188427b529ffa0d0625ba9fc163dac79db6363f2b5e8fa9c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/th/strings.js",
+      "bytes": 84937,
+      "sha256": "1482be761efe2e146c1e1ef99acd36495e54619460fc1fc49ca429fd95f98366"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/tr/main.css",
+      "bytes": 128,
+      "sha256": "965716a2630fcd137c84eac948dab2aad358b5e6f9c795c209d17637a2fc8369"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/tr/strings.js",
+      "bytes": 37685,
+      "sha256": "20efc4d9db70ee5dbb969a93cc59cfa4fdf4eb7d1b57a39c767041dc448378da"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/uk/main.css",
+      "bytes": 173,
+      "sha256": "daedc5be7b56832018ed1a5fa72962038cd368f596ab0415920d3ca7fd22e1ad"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/uk/strings.js",
+      "bytes": 84791,
+      "sha256": "40b45c36b5e4f2f144f236c7ebe723c2a5afd87e673f196acf764f7b7bb76088"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/vi/main.css",
+      "bytes": 128,
+      "sha256": "a07c88039434dd79f13449aac33cf32c8498fc59ca5a846e26d98216a42260f8"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/vi/strings.js",
+      "bytes": 73051,
+      "sha256": "f3327156b139f5799b80ef210af5a414ad739b99a4d48541ee0d816982643013"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/zh_cn/main.css",
+      "bytes": 129,
+      "sha256": "c6b96c1b01d4c7f8728739221d78213ae812c9aad1d5d37db09806f4d047309a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/zh_cn/strings.js",
+      "bytes": 67429,
+      "sha256": "96e517f5cfc6b17d2d1be9d3c4a79b37b7e1029ccd3ec9536c94e9098b9d866c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/zh_tw/main.css",
+      "bytes": 129,
+      "sha256": "c6b96c1b01d4c7f8728739221d78213ae812c9aad1d5d37db09806f4d047309a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lang/zh_tw/strings.js",
+      "bytes": 40559,
+      "sha256": "d66e1c2768c923c1f401c3c88445f3e3cd437145978890274a1f098e951e7b6e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/base64.js",
+      "bytes": 2963,
+      "sha256": "f649ef327b59653164e4f19576a65edf14d463f8d10f3b1002188e06beba7182"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/icu.js",
+      "bytes": 3213,
+      "sha256": "fda068c6f611d78a57f3bf436c239200f6b92465a7e0b39c8385ce72653ab198"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/jquery.color-2.1.2.min.js",
+      "bytes": 6604,
+      "sha256": "1f6f127715ab677f3b2dd9f4aa8802cc58940c3c5f3e2348c895fb0440909031"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/jquery.event.move.js",
+      "bytes": 14595,
+      "sha256": "8b29f58063911f56ffddaa34f5910d9b248d31312721f528f14648a049ba0407"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/jquery.event.swipe.js",
+      "bytes": 3236,
+      "sha256": "fe97d5929ac75f91d307d831d1e58843912f490f4143b971960cdba28c395f20"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/jquery.min.js",
+      "bytes": 93057,
+      "sha256": "8bf150f6b29d6c9337de6c945a8f63c929b203442040688878bc2753fe13e007"
+    },
+    {
+      "path": "Vendor/ADarkRoom/lib/translate.js",
+      "bytes": 1649,
+      "sha256": "8c27c075103f8f2018513f517af80cd507155c60c3bc5a97d4e08794293cffff"
+    },
+    {
+      "path": "Vendor/ADarkRoom/mobileWarning.html",
+      "bytes": 1354,
+      "sha256": "8767451c0f66b2c52b15cffdc9961cf321e173d37714d391753f02a0288b0aa3"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/Button.js",
+      "bytes": 3466,
+      "sha256": "5f572fafc93dddf3619142b24864fe6ccca21a42482a5fcfb0717b2e98c49533"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/audio.js",
+      "bytes": 11900,
+      "sha256": "21f15566868981ed1d228f94a20e675e71067b9fc99d73962ad4ea810cecb60c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/audioLibrary.js",
+      "bytes": 4261,
+      "sha256": "3ef3f660b65ce72cdad46a2c9cdcf1be84e878fbf11fc6bda1925bbc804588ac"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/dropbox.js",
+      "bytes": 10361,
+      "sha256": "7fcd8b4b35fb1486de0f471e5a142fec0514e7ab72a9529899d14f888176cb5f"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/engine.js",
+      "bytes": 27168,
+      "sha256": "e3ab30d0c34cb8cef6a7ab67f88085509eb831ce2b9448a61125cb570a737d88"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events.js",
+      "bytes": 40565,
+      "sha256": "7f450f94703097bfa91b75f544b786478db81408df56f8b0a270cacaf4202543"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/encounters.js",
+      "bytes": 7611,
+      "sha256": "6fa4a221c998e7481f1ec9856dd63494a0b4f607f5a65d07eb43dcbf59915c7c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/executioner.js",
+      "bytes": 58104,
+      "sha256": "bbac88cc64da20b9d80a44544c1c12fa60a4f29004f1418eb84e6d1b4d50369b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/global.js",
+      "bytes": 1636,
+      "sha256": "e0057233548faaac2f87325066cd676d5ba7a320981abb6cde994f50d8b7053e"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/marketing.js",
+      "bytes": 994,
+      "sha256": "1dccab6d1ada98d929ae9b20ae12c45c5c61412c83e6271611171153f645e67a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/outside.js",
+      "bytes": 7298,
+      "sha256": "f3cd0b0d882258db3dcd21e8eea46276fdbe9e32e6de6039fca3381e4ab5449f"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/room.js",
+      "bytes": 16140,
+      "sha256": "b9360390b89aec740b6bb17838c0a22500f35ddf2961a6c506369b6a1cf887d7"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/events/setpieces.js",
+      "bytes": 67718,
+      "sha256": "d16d5602299ff212ea18b0b1701b2b63666917b6c8e5e806134d206400bb7906"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/fabricator.js",
+      "bytes": 7162,
+      "sha256": "0e7ef3884c82db125221c8c15ba5e167da3e46723b0765de64784635dd40b4b5"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/header.js",
+      "bytes": 707,
+      "sha256": "214b91dfc7c347e17e96779ba95441f50c4037cb15dfcb9f518a3f730970385a"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/localization.js",
+      "bytes": 1371,
+      "sha256": "5bb15cc74cd399f6b221db80d70a74e2c962c8e95a162bf32cf940a2b5401d38"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/notifications.js",
+      "bytes": 2015,
+      "sha256": "c103d1715423009b6650aa1a794bb58e7224fb32b1326818ed61c1e0fa92cebc"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/outside.js",
+      "bytes": 18489,
+      "sha256": "3f770f7da741b964e016c78801722ca8a58980f1eb6f9748f922b573d341f451"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/path.js",
+      "bytes": 10780,
+      "sha256": "5f332dd65d74919eeeef97126dd5fc9031661c593355041f160a5ed40c922850"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/prestige.js",
+      "bytes": 2369,
+      "sha256": "6c1253534ccb6405d4271bbf6ffe7a5a0c082a11063a6026903c14a231e26c9c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/room.js",
+      "bytes": 33594,
+      "sha256": "1ab0ba74c5463f451bad9e6d8e5c6e871b3e0301878f0283f779b4d1bc6c5e81"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/scoring.js",
+      "bytes": 849,
+      "sha256": "228a55d5bb91173d12a9f82a7c506c03247d9092902c8f0c818500436de21db4"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/ship.js",
+      "bytes": 4798,
+      "sha256": "efde525a884fed3cc1f3f6d84d66bc02fa47a123beb4e91c30c86e2b5377ef1c"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/space.js",
+      "bytes": 16115,
+      "sha256": "5ac2f472b40c68ce9149e904c543f0991ead45f9a2e7326e4d52be26b612602b"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/state_manager.js",
+      "bytes": 12672,
+      "sha256": "85441d6f3143c99818938644dc15f0ba0a1fb740a4904b02d5d96347015e5826"
+    },
+    {
+      "path": "Vendor/ADarkRoom/script/world.js",
+      "bytes": 33825,
+      "sha256": "b85430ed41d1e943e52a902aca72efebcc907e08d4edf561e8c528f13d75c142"
+    },
+    {
+      "path": "Vendor/ADarkRoom/source-manifest.json",
+      "bytes": 53965,
+      "sha256": "134e6adf22746b2717683ee7614a08358b1dd924562601da8ac03389d99eb02f"
+    },
+    {
+      "path": "Vendor/download-results.json",
+      "bytes": 10863,
+      "sha256": "dba0496cd134d86104c9be7d20311b1c9a7222e7eadb241a2b0e56c4f2f9ec5b"
+    },
+    {
+      "path": "play.sh",
+      "bytes": 4690,
+      "sha256": "d923bcb68e98b9afcebac802f8dbe508487ab013e28136bf2498ea292dace93b"
+    }
+  ]
+}

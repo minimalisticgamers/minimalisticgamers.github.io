@@ -1,0 +1,65 @@
+{
+  "app": "A Quiet Ember",
+  "version": "1.0",
+  "build": "3",
+  "source_snapshot": "Source-3",
+  "native_css_sha256": "39ac933c54d20da4cb08da7b1454339bd2150a58acfbaaa06654993a457c76b5",
+  "provenance": "Screenshot derivatives resized proportionally from production native ContentView captures. Gameplay UI is not repainted. Later-game views use isolated original-engine demonstration state, not an earned playthrough. System status bar is absent from the captured app window.",
+  "assets": [
+    {
+      "file": "light-the-fire.png",
+      "pixels": [
+        600,
+        1304
+      ],
+      "bytes": 41152,
+      "sha256": "a0d9b75440721da4447fc6f671d2056622189d8d0c5e132326a9ecccbf9d3e3d",
+      "source_file": "01-light-the-fire.png",
+      "source_sha256": "d712971c9839e0abebead2b928b45d476a1b02140527abe8998689d46b3fd6d8"
+    },
+    {
+      "file": "build-a-settlement.png",
+      "pixels": [
+        600,
+        1304
+      ],
+      "bytes": 89537,
+      "sha256": "05592800c0d5e62687c06aebacecf013f05a80ad05ea0f687f6c3c3abb3fa1cd",
+      "source_file": "02-build-a-settlement.png",
+      "source_sha256": "b3a2137951f08ac2c9399c282917cf98ed98d18246ddc1d34ba168ac569a239c"
+    },
+    {
+      "file": "grow-the-village.png",
+      "pixels": [
+        600,
+        1304
+      ],
+      "bytes": 76170,
+      "sha256": "86588ddbae59ba00de3499a0f9733c7af142746f629a7c6339686208096a0a6d",
+      "source_file": "03-grow-the-village.png",
+      "source_sha256": "ee464899400f03040e48e86c57905498a167172a4caa0a47a64e8963e2a768d8"
+    },
+    {
+      "file": "social-card.png",
+      "pixels": [
+        1200,
+        630
+      ],
+      "bytes": 106970,
+      "sha256": "42e97d32cf1bee7737e58015d0ffa6ac845954f18e664b5cc11ae189db2ec386",
+      "source_file": "A-Quiet-Ember-social.png",
+      "source_sha256": "42e97d32cf1bee7737e58015d0ffa6ac845954f18e664b5cc11ae189db2ec386"
+    },
+    {
+      "file": "app-icon.png",
+      "pixels": [
+        512,
+        512
+      ],
+      "bytes": 109675,
+      "sha256": "40d20d80b7066dde43c802954f885148dc0ae3a399885fcde61f6fad92bc339e",
+      "source_file": "AppIcon.png",
+      "source_sha256": "ce3aa7882309dd79025370bcadef37e658e7ff5b312bb0de6f93a87150e7e8b5"
+    }
+  ]
+}
