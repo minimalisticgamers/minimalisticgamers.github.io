@@ -9,9 +9,11 @@ This organization site is owned by the `minimalisticgamers` GitHub organization 
 - Website: https://minimalisticgamers.github.io/
 - Support URL: https://minimalisticgamers.github.io/support/
 - Privacy Policy URL: https://minimalisticgamers.github.io/privacy/
-- Support email: contact@minimalisticgamers.io
+- Public support tracker: https://github.com/minimalisticgamers/minimalisticgamers.github.io/issues
 
-Use the support and privacy URLs in each game's store listing and in-app links. The shared policy covers MinimalisticGamers games that link to it. Before releasing another game, verify that its actual data practices match the policy; update the policy first if they differ. The policy includes separate explanations for support emails, Apple diagnostics/TestFlight, and GitHub hosting.
+Use the support and privacy URLs in each game's store listing and in-app links. The shared policy explicitly covers Wigmaker Workshop (`com.skylar.wigmaker`) and other MinimalisticGamers games that link to it. Before releasing another game, verify that its actual data practices match the policy; update the policy first if they differ. The policy includes separate explanations for public GitHub support posts, Apple diagnostics/TestFlight, and GitHub hosting.
+
+GitHub Issues is enabled for this repository. Support requires a GitHub account and posts are public. Keep personal contact details out of the website and support posts. The site does not advertise an email address or imply that a support mailbox is configured.
 
 ## Hosting and editing
 
@@ -30,6 +32,6 @@ Preview from this directory:
 python3 -m http.server 8787 --bind 127.0.0.1
 ```
 
-Then visit http://127.0.0.1:8787/. Review mobile and desktop layouts, relative links, and email links before committing and pushing changes to `main`.
+Then visit http://127.0.0.1:8787/. Review mobile and desktop layouts, relative links, and the public support link before committing and pushing changes to `main`.
 
 The site currently uses its GitHub Pages address. A custom domain can be configured later through GitHub Pages and the domain's DNS provider. This repository does not configure the domain or email delivery. If a custom domain is added, update canonical URLs and the absolute paths in `404.html`.
