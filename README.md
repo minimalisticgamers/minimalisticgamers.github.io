@@ -73,7 +73,7 @@ Dedicated marketing pages, app support instructions, and app privacy policies:
 - https://minimalisticgamers.github.io/speed-warp/support/
 - https://minimalisticgamers.github.io/speed-warp/privacy/
 
-All three pages show public release as in preparation. Do not add an App Store download badge until the listing is publicly available. The host offers local gameplay and save backups, with no added closed-app catch-up production. Support stays on the public GitHub tracker; private Apple review contacts must not be published here.
+Paperclip Game, Space Lich Omega 1, and Speed Warp are prepared for iPhone only. Their pages, galleries, and app-specific support/privacy copy must not advertise iPad or other device support. Existing tablet QA artifacts are historical records and are not public release collateral. All three pages show public release as in preparation. Do not add an App Store download badge until the listing is publicly available. The host offers local gameplay and save backups, with no added closed-app catch-up production. Support stays on the public GitHub tracker; private Apple review contacts must not be published here.
 
 Paperclip Game is an independent host for Universal Paperclips by Frank Lantz / Everybody House Games. Space Lich Omega 1 is an independent host for the first Space Lich Omega by Nora Forcier / Zertuk. Their distribution authorization is unresolved; these pages do not distribute the game runtime or claim official status. Keep original creator attribution and release-status wording.
 
