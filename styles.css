@@ -52,6 +52,14 @@ h1 { margin: 0; font-size: clamp(48px, 6.3vw, 80px); }
 .row-link { font-size: 12px; display: flex; gap: 30px; align-items: center; }
 .row-link span { font-size: 21px; }
 .directory-row:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.featured-game { padding-bottom: 65px; }
+.featured-game-link { display: grid; grid-template-columns: 170px 1fr; gap: 45px; align-items: center; padding-block: 32px; border-bottom: 1px solid var(--rule); text-decoration: none; }
+.featured-game-link img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
+.featured-game-link .eyebrow { margin-bottom: 13px; color: var(--muted); }
+.featured-game-link h2 { font-size: clamp(29px, 3.8vw, 42px); margin: 0 0 13px; }
+.featured-game-link p:not(.eyebrow) { color: var(--muted); font-size: 14px; max-width: 540px; margin: 0; }
+.featured-game-link .row-link { justify-content: space-between; margin-top: 18px; max-width: 190px; }
+.featured-game-link:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 .contact-strip { padding-block: 68px 76px; }
 .contact-strip .eyebrow { color: var(--muted); margin-bottom: 15px; }
 .email-link { font-size: clamp(19px, 3.4vw, 36px); letter-spacing: -.04em; text-decoration: none; overflow-wrap: anywhere; }
@@ -117,6 +125,10 @@ h1 { margin: 0; font-size: clamp(48px, 6.3vw, 80px); }
   .lead { font-size: 20px; }
   .game-art { width: 76%; max-width: 310px; margin: 0 auto; justify-self: center; }
   .directory-row { grid-template-columns: 24px 1fr; gap: 16px; padding-block: 27px; }
+  .featured-game { padding-bottom: 45px; }
+  .featured-game-link { grid-template-columns: 80px 1fr; gap: 20px; align-items: start; padding-block: 25px; }
+  .featured-game-link h2 { font-size: 29px; }
+  .featured-game-link .eyebrow { font-size: 8px; letter-spacing: .3px; }
   .directory-row h2 { font-size: 25px; }
   .row-link { grid-column: 2; justify-content: space-between; margin-top: 2px; }
   .contact-strip { padding-block: 48px 55px; }

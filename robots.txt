@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minimalisticgamers.github.io/sitemap.xml

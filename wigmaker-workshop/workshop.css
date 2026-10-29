@@ -1,0 +1,80 @@
+.workshop-hero { display: grid; grid-template-columns: 1.3fr .9fr; align-items: center; gap: 76px; padding-block: 78px 68px; }
+.workshop-hero h1 { font-size: clamp(52px, 6.5vw, 82px); letter-spacing: -.06em; line-height: .99; }
+.title-dot { color: #6b782c; }
+.workshop-tagline { font-size: clamp(23px, 2.4vw, 29px); line-height: 1.35; letter-spacing: -.8px; margin: 26px 0 17px; }
+.workshop-hero .intro { max-width: 440px; }
+.release-note { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; margin: 17px 0 0; }
+.release-note span { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #6b782c; }
+.workshop-art { background: var(--ink); color: var(--paper); padding: 21px; transform: rotate(2deg); }
+.workshop-art img { display: block; width: 100%; height: auto; margin-block: 21px; }
+.game-facts { display: flex; flex-wrap: wrap; gap: 18px 35px; padding-block: 22px; border-block: 1px solid var(--rule); font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; text-transform: uppercase; letter-spacing: .8px; }
+.game-facts span { display: flex; align-items: center; gap: 12px; }
+.game-facts span::before { content: "+"; color: #6b782c; font-size: 14px; }
+.workshop-story { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-block: 82px 72px; }
+.workshop-story h2, .play-details h2 { font-size: clamp(32px, 3.8vw, 46px); margin: 0; }
+.workshop-story .eyebrow, .play-details .eyebrow { color: var(--muted); margin-bottom: 20px; }
+.story-copy { padding-top: 28px; }
+.story-copy p { color: var(--muted); font-size: 15px; line-height: 1.85; margin: 0 0 18px; }
+.screenshot-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; padding-block: 32px 12px; }
+.screenshot-gallery:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
+.screenshot-gallery figure { margin: 0; min-width: 0; }
+.screenshot-link { display: block; padding: 8px; background: #e9e9e1; border: 1px solid var(--rule); border-radius: 16px; }
+.screenshot-link img { display: block; width: 100%; height: auto; border-radius: 9px; }
+.screenshot-gallery figcaption { margin-top: 21px; }
+.screenshot-gallery h3 { font-size: 24px; margin: 9px 0 10px; }
+.screenshot-gallery figcaption p { font-size: 13px; color: var(--muted); max-width: 260px; margin: 0; }
+.gallery-hint { display: none; }
+.screenshot-note { font-size: 11px; color: var(--muted); margin: 20px 0 0; }
+.play-details { display: grid; grid-template-columns: 1fr 1fr; gap: 90px; padding-block: 85px 78px; }
+.play-details .intro { margin-top: 24px; max-width: 380px; }
+.game-questions { border-top: 1px solid var(--rule); align-self: start; }
+.game-questions details { border-bottom: 1px solid var(--rule); padding-block: 19px; }
+.game-questions summary { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; }
+.game-questions summary::-webkit-details-marker { display: none; }
+.game-questions summary::after { content: "+"; font-weight: 400; flex-shrink: 0; }
+.game-questions details[open] summary::after { content: "−"; }
+.game-questions details p { color: var(--muted); font-size: 13px; line-height: 1.85; margin: 13px 28px 0 0; }
+.workshop-coming { display: flex; align-items: center; justify-content: space-between; gap: 28px; background: var(--accent); padding: 35px 38px; }
+.workshop-coming .eyebrow { margin-bottom: 15px; }
+.workshop-coming h2 { font-size: clamp(26px, 3vw, 36px); margin: 0; }
+.workshop-coming p:last-child { font-size: 13px; margin: 14px 0 0; }
+.workshop-coming .button { flex-shrink: 0; margin: 0; }
+.game-credit { padding-block: 30px 40px; }
+.game-credit p { color: var(--muted); font-size: 11px; margin: 0; line-height: 1.85; }
+@media (max-width: 900px) {
+  .workshop-hero { gap: 40px; }
+  .workshop-story { gap: 40px; }
+  .screenshot-gallery { gap: 20px; }
+  .screenshot-gallery h3 { font-size: 21px; }
+  .play-details { gap: 40px; }
+  .workshop-coming { padding: 28px; }
+  .workshop-coming .button { gap: 25px; }
+}
+@media (max-width: 680px) {
+  .workshop-hero { grid-template-columns: 1fr; gap: 38px; padding-block: 46px 40px; }
+  .workshop-hero h1 { font-size: clamp(44px, 12.5vw, 76px); }
+  .workshop-tagline { font-size: 25px; margin-top: 22px; }
+  .workshop-art { width: 75%; max-width: 340px; justify-self: center; padding: 16px; }
+  .workshop-art img { margin-block: 16px; }
+  .game-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 13px 12px; font-size: 9px; letter-spacing: .4px; }
+  .game-facts span { gap: 8px; }
+  .workshop-story { grid-template-columns: 1fr; gap: 22px; padding-block: 45px 34px; }
+  .workshop-story h2, .play-details h2 { font-size: 36px; }
+  .story-copy { padding-top: 0; }
+  .story-copy p { font-size: 14px; }
+  .gallery-hint { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; margin: 15px 0 0; }
+  .screenshot-gallery { display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(78vw, 300px); overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; gap: 20px; padding-block: 20px 18px; }
+  .screenshot-gallery figure { scroll-snap-align: start; }
+  .screenshot-gallery figcaption { margin-top: 17px; }
+  .screenshot-note { margin-top: 13px; }
+  .play-details { grid-template-columns: 1fr; gap: 30px; padding-block: 50px 40px; }
+  .play-details .intro { margin-top: 19px; }
+  .workshop-coming { flex-direction: column; align-items: flex-start; padding: 25px; gap: 23px; }
+  .workshop-coming h2 { font-size: 30px; }
+  .game-credit { padding-block: 25px 30px; }
+}
+@media print {
+  .workshop-art { transform: none; }
+  .screenshot-gallery { display: grid; grid-auto-flow: row; grid-template-columns: repeat(3, 1fr); overflow: visible; }
+  .game-questions details p { display: block; }
+}
