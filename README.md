@@ -2,11 +2,13 @@
 
 Public contact, support, and shared privacy-policy website for MinimalisticGamers.
 
+This organization site is owned by the `minimalisticgamers` GitHub organization and published from its `minimalisticgamers.github.io` repository.
+
 ## Stable URLs
 
-- Website: https://skylarhigh90.github.io/minimalisticgamers/
-- Support URL: https://skylarhigh90.github.io/minimalisticgamers/support/
-- Privacy Policy URL: https://skylarhigh90.github.io/minimalisticgamers/privacy/
+- Website: https://minimalisticgamers.github.io/
+- Support URL: https://minimalisticgamers.github.io/support/
+- Privacy Policy URL: https://minimalisticgamers.github.io/privacy/
 - Support email: contact@minimalisticgamers.io
 
 Use the support and privacy URLs in each game's store listing and in-app links. The shared policy covers MinimalisticGamers games that link to it. Before releasing another game, verify that its actual data practices match the policy; update the policy first if they differ. The policy includes separate explanations for support emails, Apple diagnostics/TestFlight, and GitHub hosting.
@@ -19,7 +21,7 @@ This is a standalone website repository, separate from game source. GitHub Pages
 - `support/index.html`: support information for all games.
 - `privacy/index.html`: shared policy, effective 29 October 2026.
 - `styles.css`: responsive layout and print styles.
-- `404.html`: missing-page fallback for the project-site path.
+- `404.html`: missing-page fallback for the root site.
 - `favicon.svg`: geometric M mark.
 
 Preview from this directory:
